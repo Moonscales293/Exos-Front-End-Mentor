@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<div class="container">
+  <nav>
+    <img class="logo" src="images/logo.svg" alt="logo">
+    <ul>
+      <li><a href="#">Collections</a></li>
+      <li><a href="#">Men</a></li>
+      <li><a href="#">Women</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="cart">
+      <img class="cart" src="images/icon-cart.svg" alt="cart">
+    </div>
+    <img class="avatar" src="images/image-avatar.png" alt="avatar">
+  </nav>
+
+  <div class="produit">
+    <div class="galerie">
+      <img id="main" src="images/image-product-1.jpg" alt="sneakers">
+      <ul>
+        <li>
+          <a href="images/image-product-1.jpg"><img src="images/image-product-1-thumbnail.jpg" alt="sneakers"></a>
+        </li>
+        <li>
+          <a href="images/image-product-2.jpg"><img src="images/image-product-2-thumbnail.jpg" alt="sneakers"></a>
+        </li>
+        <li>
+          <a href="images/image-product-3.jpg"><img src="images/image-product-3-thumbnail.jpg" alt="sneakers"></a>
+        </li>
+        <li>
+          <a href="images/image-product-4.jpg"><img src="images/image-product-4-thumbnail.jpg" alt="sneakers"></a>
+        </li>
+      </ul>
+    </div>
+  
+  <div class="details">
+    <h3>SNEAKER COMPANY</h3>
+
+    <h2>Fall Limited Edition Sneakers</h2>
+
+    <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+    durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+    
+    <div class="prices">
+      <div class="old-price">
+      <span class="price">$125.00</span>
+      <span class="discount">50%</span>
+      </div>
+      <div class="new-price">
+        <span class="discounted-price">$250.00</span>
+      </div>
+    </div>
+
+    <div class="quantity">
+      <div class="counter">
+        <button id="decrease" class="quantity-btn">-</button>
+        <span id="quantity">1</span>
+        <button id="increase" class="quantity-btn">+</button>
+      </div>
+      <button id="addToCart" class="add-to-cart">Add to cart</button>
+    </div>
+  </div>
+</div>  
+
+</body>
+</html>
